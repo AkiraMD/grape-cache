@@ -24,9 +24,9 @@ Gem::Specification.new do |spec|
     'source_code_uri' => 'https://github.com/netrusov/grape-cache'
   }
 
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 3.1.0'
 
   spec.add_runtime_dependency 'activesupport'
-  spec.add_runtime_dependency 'grape', '>= 1.2', '< 2'
+  spec.add_runtime_dependency 'grape', '>= 3.1', '< 4'
   spec.add_runtime_dependency 'rack'
 end
